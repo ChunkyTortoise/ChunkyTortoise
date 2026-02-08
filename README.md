@@ -14,11 +14,11 @@ I build multi-agent orchestration, RAG pipelines, and AI-powered business automa
 |------|-------------|-------|
 | **[EnterpriseHub](https://github.com/ChunkyTortoise/EnterpriseHub)** | Real estate AI platform — 3 bots, BI dashboards, CRM sync | 3,136 tests, 90+ routes |
 | **[Jorge Bots](https://github.com/ChunkyTortoise/jorge_real_estate_bots)** | Multi-agent chatbot system with cross-bot handoff safeguards | 279 tests |
-| **[DocQA Engine](https://github.com/ChunkyTortoise/docqa-engine)** | RAG document Q&A — BM25 + vectors + RRF, prompt lab | 94 tests |
+| **[DocQA Engine](https://github.com/ChunkyTortoise/docqa-engine)** | RAG document Q&A — BM25 + vectors + RRF, prompt lab | 94 tests · [demo](https://ct-document-engine.streamlit.app) |
 | **[Revenue-Sprint](https://github.com/ChunkyTortoise/Revenue-Sprint)** | Job scanning, proposal generation, prompt injection testing | 240 tests |
-| **[Insight Engine](https://github.com/ChunkyTortoise/insight-engine)** | CSV → dashboards, attribution models, predictive ML, PDF reports | 63 tests |
+| **[Insight Engine](https://github.com/ChunkyTortoise/insight-engine)** | CSV → dashboards, attribution models, predictive ML, PDF reports | 63 tests · [demo](https://ct-insight-engine.streamlit.app) |
 | **[AgentForge](https://github.com/ChunkyTortoise/ai-orchestrator)** | Unified async LLM interface — Claude, Gemini, OpenAI, Perplexity | 27 tests |
-| **[Scrape-and-Serve](https://github.com/ChunkyTortoise/scrape-and-serve)** | Web scraping, price monitoring, Excel-to-web, SEO tools | 62 tests |
+| **[Scrape-and-Serve](https://github.com/ChunkyTortoise/scrape-and-serve)** | Web scraping, price monitoring, Excel-to-web, SEO tools | 62 tests · [demo](https://ct-scrape-and-serve.streamlit.app) |
 
 ### Stack
 

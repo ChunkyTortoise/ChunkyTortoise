@@ -6,7 +6,8 @@ I build multi-agent orchestration, RAG pipelines, and AI-powered business automa
 
 - **89% token cost reduction** (93K → 7.8K tokens/workflow) via 3-tier caching, context optimization, and model routing
 - **3-bot orchestration** with confidence-based handoff, circular prevention, rate limiting, and A/B testing
-- **3,900+ tests across 7 repos**, all CI green, all with `make demo`
+- **3,900+ tests across 8 repos**, all CI green, all with `make demo`
+- **3 live demos** — [Insight Engine](https://ct-insight-engine.streamlit.app) · [DocQA Engine](https://ct-document-engine.streamlit.app) · [Scrape-and-Serve](https://ct-scrape-and-serve.streamlit.app)
 
 ### Projects
 

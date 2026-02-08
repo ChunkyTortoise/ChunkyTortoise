@@ -6,20 +6,20 @@ I build multi-agent orchestration, RAG pipelines, and AI-powered business automa
 
 - **89% token cost reduction** (93K → 7.8K tokens/workflow) via 3-tier caching, context optimization, and model routing
 - **3-bot orchestration** with confidence-based handoff, circular prevention, rate limiting, and A/B testing
-- **3,900+ tests across 8 repos**, all CI green, all with `make demo`
-- **3 live demos** — [Insight Engine](https://ct-insight-engine.streamlit.app) · [DocQA Engine](https://ct-document-engine.streamlit.app) · [Scrape-and-Serve](https://ct-scrape-and-serve.streamlit.app)
+- **5,300+ tests across 7 repos**, all CI green, all with `make demo`
+- **4 live demos** — [EnterpriseHub](https://ct-enterprise-ai.streamlit.app) · [Insight Engine](https://ct-insight-engine.streamlit.app) · [DocQA Engine](https://ct-document-engine.streamlit.app) · [Scrape-and-Serve](https://ct-scrape-and-serve.streamlit.app)
 
 ### Projects
 
 | Repo | What It Does | Proof |
 |------|-------------|-------|
-| **[EnterpriseHub](https://github.com/ChunkyTortoise/EnterpriseHub)** | Real estate AI platform — 3 bots, BI dashboards, CRM sync | 3,136 tests, 90+ routes |
+| **[EnterpriseHub](https://github.com/ChunkyTortoise/EnterpriseHub)** | Real estate AI platform — 3 bots, BI dashboards, CRM sync | 4,500+ tests, 90+ routes · [demo](https://ct-enterprise-ai.streamlit.app) |
 | **[Jorge Bots](https://github.com/ChunkyTortoise/jorge_real_estate_bots)** | Multi-agent chatbot system with cross-bot handoff safeguards | 279 tests |
-| **[DocQA Engine](https://github.com/ChunkyTortoise/docqa-engine)** | RAG document Q&A — BM25 + vectors + RRF, prompt lab | 94 tests · [demo](https://ct-document-engine.streamlit.app) |
+| **[DocQA Engine](https://github.com/ChunkyTortoise/docqa-engine)** | RAG document Q&A — BM25 + vectors + RRF, evaluation metrics, batch processing | 120 tests · [demo](https://ct-document-engine.streamlit.app) |
 | **[Revenue-Sprint](https://github.com/ChunkyTortoise/Revenue-Sprint)** | Job scanning, proposal generation, prompt injection testing | 240 tests |
-| **[Insight Engine](https://github.com/ChunkyTortoise/insight-engine)** | CSV → dashboards, attribution models, predictive ML, PDF reports | 63 tests · [demo](https://ct-insight-engine.streamlit.app) |
-| **[AgentForge](https://github.com/ChunkyTortoise/ai-orchestrator)** | Unified async LLM interface — Claude, Gemini, OpenAI, Perplexity | 27 tests |
-| **[Scrape-and-Serve](https://github.com/ChunkyTortoise/scrape-and-serve)** | Web scraping, price monitoring, Excel-to-web, SEO tools | 62 tests · [demo](https://ct-scrape-and-serve.streamlit.app) |
+| **[Insight Engine](https://github.com/ChunkyTortoise/insight-engine)** | CSV → dashboards, attribution models, anomaly detection, PDF reports | 76 tests · [demo](https://ct-insight-engine.streamlit.app) |
+| **[AgentForge](https://github.com/ChunkyTortoise/ai-orchestrator)** | Unified async LLM interface with retry, cost tracking, structured output | 61 tests |
+| **[Scrape-and-Serve](https://github.com/ChunkyTortoise/scrape-and-serve)** | Web scraping, price monitoring, change detection, SEO tools | 77 tests · [demo](https://ct-scrape-and-serve.streamlit.app) |
 
 ### Stack
 

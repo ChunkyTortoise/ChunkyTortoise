@@ -1,31 +1,45 @@
 # Cayman Roden
 
-**Data Analyst** | SQL · Python · Tableau · Excel · Power BI | 917h DA/BI certifications (Google, IBM, Microsoft)
+**AI Engineer & Data Analyst** | Python, SQL, Claude API, RAG, FastAPI, dbt
 
 [![Finance Dashboard](https://img.shields.io/badge/Finance_Dashboard-Live-brightgreen)](https://finance-analytics-portfolio.streamlit.app)
-[![Tableau](https://img.shields.io/badge/Tableau-Public-E97627?logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/cayman.roden/viz/MortgageCreditRiskCFPBHMDAAnalysis/Dashboard1)
-[![Evidence Report](https://img.shields.io/badge/BI_Report-Evidence.dev-4f46e5)](https://evidence-report.vercel.app)
+[![DocExtract](https://img.shields.io/badge/DocExtract_AI-Live-brightgreen)](https://docextract-demo.streamlit.app)
+[![PyPI](https://img.shields.io/badge/PyPI-mcp--server--toolkit-blue?logo=pypi&logoColor=white)](https://pypi.org/project/mcp-server-toolkit/)
 [![Portfolio](https://img.shields.io/badge/portfolio-chunkytortoise.github.io-blue)](https://chunkytortoise.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-caymanroden-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/caymanroden)
 
-> 21 professional certifications · 1,831 study hours · 127 courses | Credit risk, fair lending (HMDA), market analytics, and SQL case studies on real CFPB data (1.2M+ rows)
+> 18 repos · 11,810+ tests · PyPI published · 21 certifications · 1,831 study hours
 
 ---
 
-| Capability | Repository / Link | Signal |
+## AI Engineering
+
+| Capability | Repository | Signal |
 |---|---|---|
-| **Financial Analytics & SQL** | [finance-analytics-portfolio](https://github.com/ChunkyTortoise/finance-analytics-portfolio) | 25-page dashboard · 1.2M+ HMDA rows · credit risk · fair lending · Excel + SQL deliverables · [Live Demo](https://finance-analytics-portfolio.streamlit.app) |
-| **Tableau Dashboard** | [Tableau Public](https://public.tableau.com/app/profile/cayman.roden/viz/MortgageCreditRiskCFPBHMDAAnalysis/Dashboard1) | CFPB HMDA mortgage analysis · approval/denial patterns · fair-lending indicators |
-| **Evidence.dev BI Report** | [Evidence Report](https://evidence-report.vercel.app) | SQL-based BI report · narrative analytics · concentration risk |
-| **Client Analytics Dashboard** | [lyrio-dashboard](https://github.com/ChunkyTortoise/lyrio-dashboard) | Real client work · lead conversion · campaign ROI · [Live](https://lyrio-jorge.streamlit.app) |
+| **Production RAG pipeline** | [docextract](https://github.com/ChunkyTortoise/docextract) | Async ingestion, pgvector, hybrid BM25 + cosine + RRF retrieval, citation-aware answers, 1,183 tests, 87%+ coverage · [Live Demo](https://docextract-demo.streamlit.app) |
+| **MCP server toolkit** | [mcp-server-toolkit](https://github.com/ChunkyTortoise/mcp-server-toolkit) | Published on PyPI (`mcp-server-toolkit==0.2.0`), 412 tests, CI/CD on every commit |
+| **LLM-powered client automation** | [jorge-real-estate-bots](https://github.com/ChunkyTortoise/jorge-real-estate-bots) | FastAPI + GoHighLevel CRM integration, 1,824 tests, live in production 24/7 since Jan 2026 |
+| **Multi-agent orchestration** | [EnterpriseHub](https://github.com/ChunkyTortoise/EnterpriseHub) | Planner/Coder/QA agent mesh, per-agent model routing, 7,678 tests · [Live Demo](https://ct-enterprise-ai.streamlit.app) |
+
+---
+
+## Data Analytics
+
+| Capability | Repository | Signal |
+|---|---|---|
+| **Financial analytics portfolio** | [finance-analytics-portfolio](https://github.com/ChunkyTortoise/finance-analytics-portfolio) | 21-page dashboard, 1.2M+ CFPB HMDA rows, credit risk (SHAP), fair lending, stress testing, dbt analytics layer, 1,472 tests · [Live Demo](https://finance-analytics-portfolio.streamlit.app) |
+| **Client analytics dashboard** | [lyrio-dashboard](https://github.com/ChunkyTortoise/lyrio-dashboard) | Real client work, lead conversion, campaign ROI, time-series forecasting · [Live](https://lyrio-jorge.streamlit.app) |
 
 ---
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude_API-CC785C?style=flat&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
 
 **[Portfolio](https://chunkytortoise.github.io)** · **[LinkedIn](https://linkedin.com/in/caymanroden)** · caymanroden@gmail.com

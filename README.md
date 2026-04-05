@@ -8,7 +8,7 @@
 [![Portfolio](https://img.shields.io/badge/portfolio-chunkytortoise.github.io-blue)](https://chunkytortoise.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-caymanroden-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/caymanroden)
 
-> 15 repos · 11,810+ tests · PyPI published · 21 certifications · 1,831 study hours · 10 years client-facing ops
+> 15 repos · 12,000+ tests · PyPI published · 21 certifications · 1,831 study hours · 10 years client-facing ops
 
 ---
 
@@ -54,7 +54,7 @@ SQL, Python, and BI tools applied to real datasets with business-memo deliverabl
 
 | Project | Tools | Signal |
 |---|---|---|
-| **[finance-analytics-portfolio](https://github.com/ChunkyTortoise/finance-analytics-portfolio)** | SQL · Python · pandas · Excel · Tableau · Power BI | 1.2M+ CFPB HMDA rows — credit risk, fair lending, stress testing. Deliverables: 21-page dashboard, 11 SQL case studies, Power BI report (14 DAX), 8-tab Excel workbook · [Live Demo](https://finance-analytics-portfolio.streamlit.app) |
+| **[finance-analytics-portfolio](https://github.com/ChunkyTortoise/finance-analytics-portfolio)** | SQL · Python · pandas · Excel · Tableau · Power BI | 1.2M+ CFPB HMDA rows — credit risk, fair lending, stress testing. Deliverables: 25-page dashboard, 11 SQL case studies, Power BI report (14 DAX), 8-tab Excel workbook · [Live Demo](https://finance-analytics-portfolio.streamlit.app) |
 | **[olist-analytics-portfolio](https://github.com/ChunkyTortoise/olist-analytics-portfolio)** | SQL · Python · pandas · scikit-learn | 100K+ e-commerce orders — customer retention (93% never return), delivery impact, K-Means segmentation (4 segments), written business memo · [Live Demo](https://olist-analytics-portfo-nbpkbqj3vy7dpa2tus56th.streamlit.app) |
 | **[lyrio-dashboard](https://github.com/ChunkyTortoise/lyrio-dashboard)** | Python · Plotly · Streamlit | Real client work: lead conversion tracking, campaign ROI, pipeline KPIs for a real estate firm · [Live](https://lyrio-jorge.streamlit.app) |
 

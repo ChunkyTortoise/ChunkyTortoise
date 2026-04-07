@@ -1,13 +1,13 @@
 # Cayman Roden
 
-**AI/LLM Application Developer** | Production RAG Pipelines, Multi-Agent Systems, Generative AI
+**AI/LLM Engineer** | Production RAG Pipelines, Multi-Agent Systems, Generative AI
 
 [![DocExtract](https://img.shields.io/badge/DocExtract_AI-Live_Demo-brightgreen)](https://docextract-demo.streamlit.app)
 [![PyPI](https://img.shields.io/badge/PyPI-mcp--server--toolkit-blue?logo=pypi&logoColor=white)](https://pypi.org/project/mcp-server-toolkit/)
 [![Portfolio](https://img.shields.io/badge/portfolio-chunkytortoise.github.io-blue)](https://chunkytortoise.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-caymanroden-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/caymanroden)
 
-> 18 repos, 9,956 tests, PyPI published, 21 certifications (1,831 hours), 3 OSS contributions
+> 18 repos, 10,028 tests, PyPI published, 21 certifications (1,831 hours), 6 OSS PRs (pydantic-ai merged, LiteLLM, FastAPI)
 
 ---
 
@@ -16,8 +16,8 @@
 | Project | What It Does | Key Metrics |
 |---|---|---|
 | **[docextract](https://github.com/ChunkyTortoise/docextract)** | Production RAG pipeline: agentic ReAct reasoning, vector database semantic search, hallucination detection, RAGAS evaluation | 1,185 tests, 94.6% accuracy, [Live Demo](https://docextract-demo.streamlit.app) |
-| **[jorge-real-estate-bots](https://github.com/ChunkyTortoise/jorge-real-estate-bots)** | Claude-powered SMS lead qualification: 3 bots, bilingual EN/ES, GoHighLevel CRM, zero downtime | 1,702 tests, 500+ leads, 3 months production |
-| **[EnterpriseHub](https://github.com/ChunkyTortoise/EnterpriseHub)** | Multi-agent orchestration: 3-tier cache (88% hit rate), per-agent model routing, circuit-breaker failover | 6,657 tests, 8 agent capabilities |
+| **[jorge-real-estate-bots](https://github.com/ChunkyTortoise/jorge_real_estate_bots)** | Claude-powered SMS lead qualification: 3 bots, bilingual EN/ES, GoHighLevel CRM, zero downtime | 1,731 tests, 500+ leads, 3 months production |
+| **[EnterpriseHub](https://github.com/ChunkyTortoise/EnterpriseHub)** | Multi-agent orchestration: 3-tier cache (88% hit rate), per-agent model routing, circuit-breaker failover | 6,700 tests, 8 agent capabilities |
 | **[mcp-server-toolkit](https://github.com/ChunkyTortoise/mcp-server-toolkit)** | PyPI-published MCP framework: 9 servers, A2A adapter, auto-caching, rate limiting | 412 tests, 88% coverage, `pip install mcp-server-toolkit` |
 
 ---

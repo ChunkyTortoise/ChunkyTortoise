@@ -1,53 +1,39 @@
 # Cayman Roden
 
-**AI/LLM Engineer** | Production RAG Pipelines, Multi-Agent Systems, Generative AI
+**AI Engineer | Production RAG, Agents, Evals, FastAPI, Python**
 
-[![DocExtract](https://img.shields.io/badge/DocExtract_AI-Live_Demo-brightgreen)](https://docextract-demo.streamlit.app)
-[![PyPI](https://img.shields.io/badge/PyPI-mcp--server--toolkit-blue?logo=pypi&logoColor=white)](https://pypi.org/project/mcp-server-toolkit/)
-[![Portfolio](https://img.shields.io/badge/portfolio-chunkytortoise.github.io-blue)](https://chunkytortoise.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-caymanroden-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/caymanroden)
+AI Engineer building production Python-based RAG pipelines, agent workflows, eval harnesses, and backend systems from prototype to deployment.
 
-> 18 repos, 10,028 tests, PyPI published, 21 certifications (1,831 hours), 6 OSS PRs (pydantic-ai merged, LiteLLM, FastAPI)
+[Portfolio](https://chunkytortoise.github.io) | [LinkedIn](https://linkedin.com/in/caymanroden) | [DocExtract Live Demo](https://docextract-demo.streamlit.app) | [PyPI: mcp-server-toolkit](https://pypi.org/project/mcp-server-toolkit/)
 
----
+> DocExtract 94.6% eval accuracy | 500+ leads processed | 9,900+ automated tests | 21 certifications, 1,831 hours
 
-## Production AI Systems
+## Flagship Projects
 
-| Project | What It Does | Key Metrics |
+| Project | What it shows | Proof |
 |---|---|---|
-| **[docextract](https://github.com/ChunkyTortoise/docextract)** | Production RAG pipeline: agentic ReAct reasoning, vector database semantic search, hallucination detection, RAGAS evaluation | 1,185 tests, 94.6% accuracy, [Live Demo](https://docextract-demo.streamlit.app) |
-| **[jorge-real-estate-bots](https://github.com/ChunkyTortoise/jorge_real_estate_bots)** | Claude-powered SMS lead qualification: 3 bots, bilingual EN/ES, GoHighLevel CRM, zero downtime | 1,731 tests, 500+ leads, 3 months production |
-| **[EnterpriseHub](https://github.com/ChunkyTortoise/EnterpriseHub)** | Multi-agent orchestration: 3-tier cache (88% hit rate), per-agent model routing, circuit-breaker failover | 6,700 tests, 8 agent capabilities |
-| **[mcp-server-toolkit](https://github.com/ChunkyTortoise/mcp-server-toolkit)** | PyPI-published MCP framework: 9 servers, A2A adapter, auto-caching, rate limiting | 412 tests, 88% coverage, `pip install mcp-server-toolkit` |
-
----
-
-## AI/ML Demos
-
-| Project | Stack | Demo |
-|---|---|---|
-| **[multi-agent-demo](https://github.com/ChunkyTortoise/multi-agent-demo)** | LangGraph, parallel fan-out, tool use, MockLLM | [Live Demo](https://multi-agent-demo-xjvogxpydrv6cfnxvqftpx.streamlit.app) |
-| **[graphrag-demo](https://github.com/ChunkyTortoise/graphrag-demo)** | Knowledge graphs, multi-hop retrieval, entity extraction, RRF | [Live Demo](https://graphr-azucpb9e7jkdxavkahvicr.streamlit.app) |
-| **[technova-voice-bot](https://github.com/ChunkyTortoise/technova-voice-bot)** | Voice AI: Silero VAD, Deepgram STT/TTS, Claude reasoning | 171 tests, sub-300ms TTFB |
-| **[ai-dashboard](https://github.com/ChunkyTortoise/ai-dashboard)** | Next.js 15, streaming Claude chat, service health monitoring | [Vercel](https://ai-dashboard-rust.vercel.app) |
-
----
+| [docextract](https://github.com/ChunkyTortoise/docextract) | Production document AI with hybrid retrieval, agentic RAG, eval CI, and reliability patterns | 1,185 tests, 94.6% eval accuracy, live demo |
+| [jorge_real_estate_bots](https://github.com/ChunkyTortoise/jorge_real_estate_bots) | Live Claude-powered workflow automation for lead qualification inside a real business process | 500+ leads processed, 1,700+ tests, 3-month production run |
+| [EnterpriseHub](https://github.com/ChunkyTortoise/EnterpriseHub) | Multi-agent orchestration, caching, eval-driven delivery, and backend AI systems | 6,700 tests, 89% token reduction per workflow |
+| [mcp-server-toolkit](https://github.com/ChunkyTortoise/mcp-server-toolkit) | PyPI-published MCP tooling for faster, safer LLM tool integration | 412 tests, 88% coverage, 9 pre-built servers |
 
 ## Open Source Contributions
 
-| Project | Stars | Contribution |
-|---|---|---|
-| **[LiteLLM](https://github.com/BerriAI/litellm)** | 27K+ | PR #24551: Typed exception mapping for Router fallback |
-| **[FastAPI](https://github.com/tiangolo/fastapi)** | 80K+ | PR #15217: BackgroundTasks interaction warning |
-| **[pgvector-python](https://github.com/pgvector/pgvector-python)** | -- | PR #151: Async SQLAlchemy + HNSW index docs |
-| **[pydantic-ai](https://github.com/pydantic/pydantic-ai)** | -- | 2 merged PRs |
+| Project | Contribution |
+|---|---|
+| [LiteLLM](https://github.com/BerriAI/litellm) | PR #24551: typed exception mapping for Router fallback |
+| [FastAPI](https://github.com/tiangolo/fastapi) | PR #15217: BackgroundTasks interaction warning |
+| [pgvector-python](https://github.com/pgvector/pgvector-python) | PR #151: async SQLAlchemy + HNSW index docs |
 
----
+## Focus
 
-## Stack
+- Production Python-based AI systems
+- Retrieval, agents, orchestration, and evals
+- FastAPI backends, APIs, and workflow automation
+- Reliability, testing, and delivery
 
-Python, FastAPI, Claude/OpenAI/Gemini APIs, LangGraph, PyTorch, pgvector, Redis, PostgreSQL, Docker, Kubernetes, AWS, Terraform, pytest, GitHub Actions
+## Role Fit
 
-## Certifications
+Strongest fit: AI Engineer, Applied AI Engineer, AI Backend Engineer, and selective Forward Deployed Engineer roles.
 
-21 total (1,831 hours): IBM GenAI Engineering (144h), DeepLearning.AI Deep Learning (120h), Microsoft AI & ML Engineering (75h), Duke LLMOps (48h), IBM RAG and Agentic AI (24h), Google Cloud GenAI Leader (25h), Claude Code in Action (Anthropic), and 14 more.
+Not targeting: research scientist roles, model-training-heavy ML roles, QA-only roles, or generic tech positioning.

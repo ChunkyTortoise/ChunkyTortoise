@@ -2,20 +2,22 @@
 
 **Applied AI Engineer | Python, FastAPI, Workflow APIs, Agent Systems**
 
-Applied AI Engineer building production Python-based workflow APIs, agent systems, real-time AI pipelines, and backend services from prototype to deployment.
+Applied AI Engineer building production Python workflow APIs, agent systems, real-time AI pipelines, and backend services from prototype to deployment.
 
-[Portfolio](https://chunkytortoise.github.io) | [LinkedIn](https://linkedin.com/in/caymanroden) | [EnterpriseHub](https://github.com/ChunkyTortoise/EnterpriseHub) | [AI Workflow API](https://github.com/ChunkyTortoise/ai-workflow-api)
+[Portfolio](https://chunkytortoise.github.io) | [LinkedIn](https://linkedin.com/in/caymanroden) | [ai-workflow-api](https://github.com/ChunkyTortoise/ai-workflow-api) | [multi-agent-demo](https://github.com/ChunkyTortoise/multi-agent-demo) | [docextract](https://github.com/ChunkyTortoise/docextract)
 
-> Workflow APIs | multi-agent orchestration | real-time voice AI | 3,500+ automated tests across production repos
+> Workflow APIs, multi-agent orchestration, and RAG with evaluation gates. 2,100+ automated tests across the four capability repos below.
 
-## Flagship Projects
+## Capabilities
 
-| Project | What it shows | Proof |
+| Capability | Repo | Proof |
 |---|---|---|
-| [EnterpriseHub](https://github.com/ChunkyTortoise/EnterpriseHub) | Multi-agent orchestration, layered caching, eval-driven delivery, and backend AI systems | 22-agent platform, 3-tier cache, live demo |
-| [ai-workflow-api](https://github.com/ChunkyTortoise/ai-workflow-api) | FastAPI-first workflow automation backend with async jobs and SSE streaming | 148 tests, YAML workflows, async workers, SSE streaming |
-| [technova-voice-bot](https://github.com/ChunkyTortoise/technova-voice-bot) | Real-time voice AI with WebSocket streaming, VAD, STT/TTS, and barge-in support | <300ms TTFB target, 171 tests |
-| [multi-agent-demo](https://github.com/ChunkyTortoise/multi-agent-demo) | Clear multi-agent planning, routing, tool use, and retrieval orchestration | 89 tests, live demo, offline MockLLM |
+| Multi-agent orchestration | [multi-agent-demo](https://github.com/ChunkyTortoise/multi-agent-demo) | 89 tests, LangGraph mesh coordinator, offline MockLLM demo. Also [EnterpriseHub](https://github.com/ChunkyTortoise/EnterpriseHub), an agent orchestration platform. |
+| Workflow and backend APIs | [ai-workflow-api](https://github.com/ChunkyTortoise/ai-workflow-api) | 152 tests, YAML-defined workflows, async Redis workers, SSE streaming |
+| RAG with evaluation | [docextract](https://github.com/ChunkyTortoise/docextract) | 95.5% accepted-extraction F1, eval-gated CI, pgvector semantic search, 1,280 tests |
+| MCP and infra tooling | [mcp-server-toolkit](https://github.com/ChunkyTortoise/mcp-server-toolkit) | 9 pre-built servers, 600 tests |
+
+Also building real-time voice AI: [technova-voice-bot](https://github.com/ChunkyTortoise/technova-voice-bot), with WebSocket streaming, VAD, STT/TTS, and barge-in (171 tests).
 
 ## Open Source Contributions
 
@@ -28,7 +30,7 @@ PRs #24551 and #15217 are open / under review.
 
 ## Focus
 
-- Production Python-based AI systems
+- Production Python AI systems
 - Workflow APIs, agents, orchestration, and streaming systems
 - FastAPI backends, APIs, and workflow automation
 - Reliability, testing, and delivery

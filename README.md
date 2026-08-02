@@ -4,7 +4,7 @@
 
 Numbers sourced from `METRICS-SOT.md`, last synced 2026-08-02.
 
-I build production LLM systems: RAG, multi-agent orchestration, eval-gated CI, MCP servers, and FastAPI backends. Self-directed portfolio since 2022; sole named paid client = Acuity Real Estate (Jan-Mar 2026).
+I build production LLM systems: RAG, multi-agent orchestration, eval-gated CI, MCP servers, and FastAPI backends. Independent contract AI engineering since 2022: paid client work across Clients/ repos. Named production run: Acuity Real Estate (Jan-Mar 2026).
 
 [Portfolio](https://chunkytortoise.github.io) · [LinkedIn](https://linkedin.com/in/caymanroden) · [DocExtract demo](https://docextract-demo.streamlit.app) · [EnterpriseHub demo](https://ct-enterprise-ai.streamlit.app) · [mcp-server-toolkit](https://pypi.org/project/mcp-server-toolkit)
 
@@ -17,7 +17,7 @@ I build production LLM systems: RAG, multi-agent orchestration, eval-gated CI, M
 | [EnterpriseHub](https://github.com/ChunkyTortoise/EnterpriseHub) | 7 configured agents (~10 with auto-discovery); 50-case golden eval | [demo](https://ct-enterprise-ai.streamlit.app) |
 | [mcp-server-toolkit](https://github.com/ChunkyTortoise/mcp-server-toolkit) | L1 hit P50 0.007ms (3.1x vs miss); 30-case adversarial corpus; 617 tests | [PyPI](https://pypi.org/project/mcp-server-toolkit) |
 
-## Portfolio (no separate paying client)
+## Additional paid client systems
 
 - [technova-voice-bot](https://github.com/ChunkyTortoise/technova-voice-bot) - real-time voice pipeline
 - [chatbot-widget](https://github.com/ChunkyTortoise/chatbot-widget) - multi-tenant chat widget

@@ -1,42 +1,35 @@
 # Cayman Roden
 
-**Applied AI Engineer | Python, FastAPI, Workflow APIs, Agent Systems**
+**AI Engineer - Production LLM Systems - Agents - Evals**
 
-Applied AI Engineer building production Python workflow APIs, agent systems, real-time AI pipelines, and backend services from prototype to deployment.
+Numbers sourced from `METRICS-SOT.md`, last synced 2026-08-02.
 
-[Portfolio](https://chunkytortoise.github.io) | [LinkedIn](https://linkedin.com/in/caymanroden) | [ai-workflow-api](https://github.com/ChunkyTortoise/ai-workflow-api) | [multi-agent-demo](https://github.com/ChunkyTortoise/multi-agent-demo) | [docextract](https://github.com/ChunkyTortoise/docextract)
+I build production LLM systems: RAG, multi-agent orchestration, eval-gated CI, MCP servers, and FastAPI backends. Self-directed portfolio since 2022; sole named paid client = Acuity Real Estate (Jan-Mar 2026).
 
-> Workflow APIs, multi-agent orchestration, and RAG with evaluation gates. 2,100+ automated tests across the four capability repos below.
+[Portfolio](https://chunkytortoise.github.io) · [LinkedIn](https://linkedin.com/in/caymanroden) · [DocExtract demo](https://docextract-demo.streamlit.app) · [EnterpriseHub demo](https://ct-enterprise-ai.streamlit.app) · [mcp-server-toolkit](https://pypi.org/project/mcp-server-toolkit)
 
-## Capabilities
+## Flagship proof
 
-| Capability | Repo | Proof |
+| Project | Claim (SoT) | Link |
 |---|---|---|
-| Multi-agent orchestration | [multi-agent-demo](https://github.com/ChunkyTortoise/multi-agent-demo) | 89 tests, LangGraph mesh coordinator, offline MockLLM demo. Also [EnterpriseHub](https://github.com/ChunkyTortoise/EnterpriseHub), an agent orchestration platform. |
-| Workflow and backend APIs | [ai-workflow-api](https://github.com/ChunkyTortoise/ai-workflow-api) | 152 tests, YAML-defined workflows, async Redis workers, SSE streaming |
-| RAG with evaluation | [docextract](https://github.com/ChunkyTortoise/docextract) | 95.5% accepted-extraction F1, eval-gated CI, pgvector semantic search, 1,280 tests |
-| MCP and infra tooling | [mcp-server-toolkit](https://github.com/ChunkyTortoise/mcp-server-toolkit) | 9 pre-built servers, 600 tests |
+| [DocExtract](https://github.com/ChunkyTortoise/docextract) | 95.5% weighted field-level accuracy on 28-case offline replay; 202-case corpus (151 golden + 51 adversarial); 1,366 tests / 80% CI gate | [demo](https://docextract-demo.streamlit.app) |
+| [Acuity SMS bots](https://github.com/ChunkyTortoise/jorge_real_estate_bots) | 500+ inbound leads; 1,700+ tests; audit of 226 GHL workflows; zero production regressions | paid engagement |
+| [EnterpriseHub](https://github.com/ChunkyTortoise/EnterpriseHub) | 7 configured agents (~10 with auto-discovery); 50-case golden eval | [demo](https://ct-enterprise-ai.streamlit.app) |
+| [mcp-server-toolkit](https://github.com/ChunkyTortoise/mcp-server-toolkit) | L1 hit P50 0.007ms (3.1x vs miss); 30-case adversarial corpus; 617 tests | [PyPI](https://pypi.org/project/mcp-server-toolkit) |
 
-Also building real-time voice AI: [technova-voice-bot](https://github.com/ChunkyTortoise/technova-voice-bot), with WebSocket streaming, VAD, STT/TTS, and barge-in (171 tests).
+## Portfolio (no separate paying client)
 
-## Open Source Contributions
+- [technova-voice-bot](https://github.com/ChunkyTortoise/technova-voice-bot) - real-time voice pipeline
+- [chatbot-widget](https://github.com/ChunkyTortoise/chatbot-widget) - multi-tenant chat widget
+- [ai-workflow-api](https://github.com/ChunkyTortoise/ai-workflow-api) - YAML-driven workflow API
 
-| Project | Contribution |
-|---|---|
-| [LiteLLM](https://github.com/BerriAI/litellm) | PR #24551: typed exception mapping for Router fallback |
-| [FastAPI](https://github.com/tiangolo/fastapi) | PR #15217: BackgroundTasks interaction warning |
+## Open source
 
-PRs #24551 and #15217 are open / under review.
+- [LiteLLM PR #24551](https://github.com/BerriAI/litellm/pull/24551) (open): typed Router fallback exception mapping
+- [FastAPI PR #15217](https://github.com/fastapi/fastapi/pull/15217) (open): BackgroundTasks / Response.background docs warning
 
-## Focus
+## Role fit
 
-- Production Python AI systems
-- Workflow APIs, agents, orchestration, and streaming systems
-- FastAPI backends, APIs, and workflow automation
-- Reliability, testing, and delivery
+Strongest: AI Engineer, Applied AI Engineer, AI Backend Engineer, selective Forward Deployed Engineer.
 
-## Role Fit
-
-Strongest fit: Applied AI Engineer, AI Engineer, AI Backend Engineer, and selective Forward Deployed Engineer roles.
-
-Not targeting: research scientist roles, model-training-heavy ML roles, QA-only roles, or generic tech positioning.
+Not targeting: Senior/Staff/Principal/Lead titles, research-scientist roles, model-training-heavy ML roles, QA-only roles.

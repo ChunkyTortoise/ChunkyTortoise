@@ -23,6 +23,10 @@ I build production LLM systems: RAG, multi-agent orchestration, eval-gated CI, M
 - [chatbot-widget](https://github.com/ChunkyTortoise/chatbot-widget) - multi-tenant chat widget
 - [ai-workflow-api](https://github.com/ChunkyTortoise/ai-workflow-api) - YAML-driven workflow API
 
+## Engineering notes
+
+- [Eval-driven multi-model runs](https://chunkytortoise.github.io/case-studies/eval-driven-multi-model-runs.html): personal developer infrastructure for one-writer / independent-gate coordination. Not a product.
+
 ## Open source
 
 - [LiteLLM PR #24551](https://github.com/BerriAI/litellm/pull/24551) (open): typed Router fallback exception mapping

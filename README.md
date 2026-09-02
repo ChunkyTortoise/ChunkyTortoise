@@ -26,7 +26,7 @@ uv run pytest
 
 ## Independent portfolio systems
 
-- [chatbot-widget](https://github.com/ChunkyTortoise/chatbot-widget) - multi-tenant chat widget
+- [chatbot-widget](https://github.com/ChunkyTortoise/chatbot-widget) - multi-tenant chat widget (historical learning project — see its banner; current work starts at [llm-reviewer-path](https://github.com/ChunkyTortoise/llm-reviewer-path))
 - [ai-workflow-api](https://github.com/ChunkyTortoise/ai-workflow-api) - YAML-driven workflow API
 
 ## Engineering notes

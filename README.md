@@ -2,20 +2,22 @@
 
 **AI Engineer | Python, FastAPI, LLM applications, agents, and evaluation**
 
-I build LLM applications, agents, and evals for contract AI engineering. Named paid engagements include Acuity Real Estate and DocExtract. Other listed systems remain independent unless marked paid.
+I build LLM applications, agents, and evals for contract AI engineering. Named paid engagements include DocExtract and Acuity Real Estate. Start with the public technical evidence below; Acuity is a private client case.
 
-[Portfolio](https://chunkytortoise.github.io) · [LinkedIn](https://linkedin.com/in/caymanroden) · [Acuity SMS bots](https://github.com/ChunkyTortoise/jorge_real_estate_bots) · [DocExtract](https://github.com/ChunkyTortoise/docextract)
+[llm-reviewer-path](https://github.com/ChunkyTortoise/llm-reviewer-path) · [DocExtract](https://github.com/ChunkyTortoise/docextract) · [mcp-server-toolkit](https://github.com/ChunkyTortoise/mcp-server-toolkit) · [Portfolio](https://chunkytortoise.github.io) · [LinkedIn](https://linkedin.com/in/caymanroden)
 
 ## Interview proofs
 
 | Project | Evidence | Context |
 |---|---|---|
-| [Acuity SMS bots](https://github.com/ChunkyTortoise/jorge_real_estate_bots) | Client-reported 500+ inbound leads during a January to March 2026 deployment; 1,700+ tests at handoff; audit of 226 existing GHL workflows | Paid engagement |
-| [DocExtract](https://github.com/ChunkyTortoise/docextract) | 95.5% weighted field-level accuracy on 28 committed offline replay fixtures; authoring corpus of 200 non-metadata cases stored as 202 JSONL lines (two metadata rows); 80% CI coverage gate | Paid contract |
+| [llm-reviewer-path](https://github.com/ChunkyTortoise/llm-reviewer-path) | Offline evidence index with fixed evaluation, retrieval, action-boundary and delivery-scoping examples; clone and run pytest without an API key | Public source; examples do not establish production controls |
+| [DocExtract](https://github.com/ChunkyTortoise/docextract) | 95.5% weighted field-level accuracy on 28 saved-prediction offline replay cases; separate authoring corpus of 200 cases plus two metadata rows | Paid contract; public source; replay is not a live-model or held-out result |
+| [mcp-server-toolkit](https://github.com/ChunkyTortoise/mcp-server-toolkit) | Python MCP framework with opt-in auth and telemetry components | Public source; follow the repository's source-install instructions |
+| Acuity Real Estate SMS qualification (private case) | Client-reported 500+ inbound leads during January to March 2026; historical handoff inventory of 1,700+ tests; saved inventory of 226 CRM workflow entries with conflict candidates, not full manual validation | Private archive; authorized walkthrough only |
 
-## Cloneable reviewer index
+## Run the offline reviewer index
 
-The two hero repositories above hold the primary evidence. This small index makes their release-gate, action-boundary, retrieval-failure, and client-scoping patterns runnable without an API key:
+The public `llm-reviewer-path` repository has fixed examples of evaluation, an in-memory action boundary, retrieval failures and delivery scoping. Its tests run without an API key after dependency installation; the examples do not establish human approval isolation, a complete five-case gate, branch protection or production CRM behavior:
 
 ```bash
 git clone https://github.com/ChunkyTortoise/llm-reviewer-path
@@ -24,9 +26,9 @@ uv sync --group dev
 uv run pytest
 ```
 
-## Independent portfolio systems
+## Other portfolio systems
 
-- [chatbot-widget](https://github.com/ChunkyTortoise/chatbot-widget) - multi-tenant chat widget (historical learning project; see its banner; current work starts at [llm-reviewer-path](https://github.com/ChunkyTortoise/llm-reviewer-path))
+- [chatbot-widget](https://github.com/ChunkyTortoise/chatbot-widget) - multi-tenant chat widget (historical learning project; current technical proof starts at [llm-reviewer-path](https://github.com/ChunkyTortoise/llm-reviewer-path))
 - [ai-workflow-api](https://github.com/ChunkyTortoise/ai-workflow-api) - YAML-driven workflow API
 
 ## Engineering notes

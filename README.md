@@ -8,7 +8,25 @@ I build the application layer around LLMs: retrieval, tool use, structured outpu
 
 **Open to:** AI Engineer / Applied AI Engineer, AI Backend / LLM Platform Engineer, and selective Forward Deployed Engineer roles. US-based, remote or LA-area hybrid. Contract-first, and open to full-time roles on this stack.
 
-## Start here: a 10-minute check
+## Hero repositories
+
+| Repository | What it proves |
+|---|---|
+| [**DocExtract**](https://github.com/ChunkyTortoise/docextract) | Document extraction with eval-gated CI. 95.5% weighted field-level accuracy, measured on a 28-case offline replay only. Separate 200-case authoring corpus and an 80% test-coverage gate in CI. |
+| [**mcp-server-toolkit**](https://github.com/ChunkyTortoise/mcp-server-toolkit) | FastMCP extensions for authentication, read-only SQL validation, and OpenTelemetry tracing. 600 collected tests, Python 3.10 to 3.14. |
+| [**ai-redteam-notes**](https://github.com/ChunkyTortoise/ai-redteam-notes) | Public AI safety writeups with reproducible checks. |
+
+The DocExtract number scores 28 saved predictions; it does not run live extraction. Reproduce it offline with no API key:
+
+```bash
+git clone https://github.com/ChunkyTortoise/docextract
+cd docextract
+python scripts/eval_offline_replay.py --floor 0.85
+```
+
+The `--floor 0.85` check fails if replay accuracy drops below 85%. It is separate from the 80% test-coverage gate.
+
+## Verify in 10 minutes
 
 ```bash
 git clone https://github.com/ChunkyTortoise/llm-reviewer-path
@@ -17,17 +35,7 @@ uv sync --group dev
 uv run pytest
 ```
 
-Runs offline with no API key: evaluation gates, approval-token isolation for irreversible actions, and retrieval diagnostics.
-
-## Hero repositories
-
-| Repository | What it proves |
-|---|---|
-| [**llm-reviewer-path**](https://github.com/ChunkyTortoise/llm-reviewer-path) | Clone-and-pytest review path for eval gates, action boundaries, retrieval failures, and scoping receipts. No API key needed. |
-| [**DocExtract**](https://github.com/ChunkyTortoise/docextract) | Document extraction with eval-gated CI. 95.5% weighted field-level accuracy, measured on a 28-case offline replay only. Separate 200-case authoring corpus and an 80% test-coverage gate in CI. |
-| [**mcp-server-toolkit**](https://github.com/ChunkyTortoise/mcp-server-toolkit) | FastMCP extensions for authentication, read-only SQL validation, and OpenTelemetry tracing. 600 collected tests, Python 3.10 to 3.14. |
-
-The DocExtract number scores 28 saved predictions; it does not run live extraction. Reproduce it with `python scripts/eval_offline_replay.py --floor 0.85`, which fails if accuracy drops below 85% (a separate check from the 80% coverage gate).
+[llm-reviewer-path](https://github.com/ChunkyTortoise/llm-reviewer-path) runs offline with no API key: evaluation gates, approval-token isolation for irreversible actions, and retrieval diagnostics.
 
 ## Paid delivery
 
@@ -37,13 +45,12 @@ The DocExtract number scores 28 saved predictions; it does not run live extracti
 
 ## Stack
 
-**Backend:** Python, FastAPI, PostgreSQL, Redis, Docker, GitHub Actions
-**LLM and retrieval:** Claude, OpenAI, and Gemini APIs, RAG, pgvector, BM25 with reciprocal rank fusion, tool use, structured output, MCP
-**Evaluation and reliability:** pytest, RAGAS, LLM-as-judge, adversarial fixtures, OpenTelemetry, structured logging
+- **Backend:** Python, FastAPI, PostgreSQL, Redis, Docker, GitHub Actions
+- **LLM and retrieval:** Claude, OpenAI, and Gemini APIs, RAG, pgvector, BM25 with reciprocal rank fusion, tool use, structured output, MCP
+- **Evaluation and reliability:** pytest, RAGAS, LLM-as-judge, adversarial fixtures, OpenTelemetry, structured logging
 
-## Also on GitHub
+## Writing
 
-- [ai-redteam-notes](https://github.com/ChunkyTortoise/ai-redteam-notes): public AI safety writeups with reproducible checks.
-- [Writing](https://chunkytortoise.github.io/blog.html): testing LLM systems, multi-agent orchestration, and contract testing with pact-python v3.
+- [Blog](https://chunkytortoise.github.io/blog.html): testing LLM systems, multi-agent orchestration, and contract testing with pact-python v3.
 
 Before engineering, I spent 10 years in client-facing operations, which is why I scope tightly, write down what "done" means, and build the handoff path first.

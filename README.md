@@ -4,7 +4,7 @@
 
 I build and verify production LLM systems, agents, and evaluations for contract AI engineering and client delivery.
 
-[Portfolio](https://chunkytortoise.github.io) · [LinkedIn](https://linkedin.com/in/caymanroden) · [DocExtract](https://github.com/ChunkyTortoise/docextract) · [mcp-server-toolkit](https://github.com/ChunkyTortoise/mcp-server-toolkit)
+[Portfolio](https://chunkytortoise.github.io) · [Reviewer path](https://github.com/ChunkyTortoise/llm-reviewer-path) · [LinkedIn](https://linkedin.com/in/caymanroden) · [DocExtract](https://github.com/ChunkyTortoise/docextract) · [mcp-server-toolkit](https://github.com/ChunkyTortoise/mcp-server-toolkit)
 
 ## Start Here (10-minute Verification)
 

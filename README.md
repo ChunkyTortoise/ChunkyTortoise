@@ -10,38 +10,19 @@ I build the application layer around LLMs: retrieval, tool use, structured outpu
 
 ## Hero repositories
 
-| Repository | What it proves |
+| Repository | What it does |
 |---|---|
-| [**DocExtract**](https://github.com/ChunkyTortoise/docextract) | Document extraction with eval-gated CI. 95.5% weighted field-level accuracy, measured on a 28-case offline replay only. Separate 200-case authoring corpus and an 80% test-coverage gate in CI. |
+| [**DocExtract**](https://github.com/ChunkyTortoise/docextract) | Classifies PDFs and images (invoices, receipts, purchase orders, bank statements, medical records, ID documents) and extracts structured fields with a two-pass Claude pipeline. 95.5% weighted field-level accuracy on a 28-case offline replay you can rerun without an API key, plus an 80% test-coverage gate in CI. |
 | [**mcp-server-toolkit**](https://github.com/ChunkyTortoise/mcp-server-toolkit) | FastMCP extensions for authentication, read-only SQL validation, and OpenTelemetry tracing. 600 collected tests, Python 3.10 to 3.14. |
 | [**ai-redteam-notes**](https://github.com/ChunkyTortoise/ai-redteam-notes) | Public AI safety writeups with reproducible checks. |
 
-The DocExtract number scores 28 saved predictions; it does not run live extraction. Reproduce it offline with no API key:
-
-```bash
-git clone https://github.com/ChunkyTortoise/docextract
-cd docextract
-python scripts/eval_offline_replay.py --floor 0.85
-```
-
-The `--floor 0.85` check fails if replay accuracy drops below 85%. It is separate from the 80% test-coverage gate.
-
-## Verify in 10 minutes
-
-```bash
-git clone https://github.com/ChunkyTortoise/llm-reviewer-path
-cd llm-reviewer-path
-uv sync --group dev
-uv run pytest
-```
-
-[llm-reviewer-path](https://github.com/ChunkyTortoise/llm-reviewer-path) runs offline with no API key: evaluation gates, approval-token isolation for irreversible actions, and retrieval diagnostics.
+Want a quick check? [llm-reviewer-path](https://github.com/ChunkyTortoise/llm-reviewer-path) is a 10-minute clone-and-`pytest` check that runs offline with no API key.
 
 ## Paid delivery
 
-- **Acuity Real Estate** (Jan to Mar 2026): SMS lead qualification with Spanish detection and bilingual human handoff for a client-reported 500+ inbound leads. FastAPI, Redis, and GoHighLevel as the system of record. 1,700+ tests at handoff and an audit of 226 existing CRM workflows. [Public scope receipt](https://github.com/ChunkyTortoise/llm-reviewer-path/blob/main/receipts/fde_scope/ACUITY.md); private code by walkthrough.
-- **DocExtract**: paid work with the public offline eval above.
-- **EnterpriseHub** (2025 to 2026): confidential AI application work. Walkthrough on request.
+- **Acuity Real Estate** (Jan to Mar 2026): SMS lead qualification with Spanish detection and bilingual human handoff for a client-reported 500+ inbound leads. FastAPI, Redis, and GoHighLevel as the system of record. 1,700+ tests at handoff and an audit of 226 existing CRM workflows. [Project scope summary](https://github.com/ChunkyTortoise/llm-reviewer-path/blob/main/receipts/fde_scope/ACUITY.md); the code is private and available in a walkthrough.
+- **DocExtract**: built under a paid client engagement, and the code and its offline eval are public in the repo above.
+- **EnterpriseHub** (2025 to 2026): built the orchestration layer for a real estate AI platform with three specialized chatbots, including cross-bot handoffs with loop prevention and rate limiting. The client repo is private; walkthrough on request.
 
 ## Stack
 

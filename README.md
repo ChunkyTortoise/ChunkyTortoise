@@ -4,7 +4,7 @@
 
 Open to full-time AI Engineer roles, US remote or LA-area hybrid.
 
-- **Ship it** (production LLM apps): [Acuity Real Estate](https://chunkytortoise.github.io/projects.html#acuity), a paid client deployment (Jan–Mar 2026) with Spanish detection and bilingual handoff for client-reported 500+ inbound leads, and [DocExtract](https://github.com/ChunkyTortoise/docextract).
+- **Ship it** (production LLM apps): [Acuity Real Estate](https://chunkytortoise.github.io/case-studies/acuity.html), a paid client deployment (Jan–Mar 2026) with Spanish detection and bilingual handoff for client-reported 500+ inbound leads, and [DocExtract](https://github.com/ChunkyTortoise/docextract).
 - **Measure it** (evals as CI): the [DocExtract](https://github.com/ChunkyTortoise/docextract) eval gate and [llm-reviewer-path](https://github.com/ChunkyTortoise/llm-reviewer-path).
 - **Secure it** (agent and MCP security): [ai-redteam-notes](https://github.com/ChunkyTortoise/ai-redteam-notes) and [mcp-server-toolkit](https://github.com/ChunkyTortoise/mcp-server-toolkit).
 

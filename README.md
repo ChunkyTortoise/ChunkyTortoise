@@ -2,7 +2,7 @@
 
 **AI Engineer: I build production LLM systems and the evals and guardrails that make them safe to ship.**
 
-Open to full-time AI Engineer roles, US remote or LA-area hybrid.
+Open to full-time AI Engineer roles, US remote.
 
 - **Ship it** (production LLM apps): [Acuity Real Estate](https://chunkytortoise.github.io/case-studies/acuity.html), a paid client deployment (Jan–Mar 2026) with Spanish detection and bilingual handoff for client-reported 500+ inbound leads, and [DocExtract](https://github.com/ChunkyTortoise/docextract).
 - **Measure it** (evals as CI): the [DocExtract](https://github.com/ChunkyTortoise/docextract) eval gate and [llm-reviewer-path](https://github.com/ChunkyTortoise/llm-reviewer-path).

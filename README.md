@@ -12,7 +12,7 @@ Open to full-time AI Engineer roles, US remote or LA-area hybrid.
 
 <table>
 <tr>
-<td width="50%" valign="top"><a href="https://github.com/ChunkyTortoise/docextract"><b>DocExtract</b></a><br>Two-pass Claude extraction with pgvector search; 95.5% field-level accuracy on a 28-fixture offline replay, gated in CI.<br><sub>FastAPI · Claude API · PostgreSQL/pgvector · Redis + ARQ · OpenTelemetry</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/ChunkyTortoise/docextract"><b>DocExtract</b></a><br>Two-pass Claude extraction with pgvector search; 95.5% weighted field-level score on a 28-fixture offline replay, with a CI check that fails below 0.85.<br><sub>FastAPI · Claude API · PostgreSQL/pgvector · Redis + ARQ · OpenTelemetry</sub></td>
 <td width="50%" valign="top"><a href="https://github.com/ChunkyTortoise/ai-redteam-notes"><b>ai-redteam-notes</b></a><br>Pre-registered prompt-injection research on agent tool dispatch, plus a zero-dependency substrate auditor that runs in CI.<br><sub>Python · MCP harnesses · open-weight Llama 3.3 70B · offline repro</sub></td>
 </tr>
 <tr>

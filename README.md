@@ -5,9 +5,9 @@
 Open to full-time AI Engineer roles, US remote.
 
 <p align="center">
-  <a href="https://github.com/ChunkyTortoise/llm-reviewer-path"><img src="assets/reviewer-receipt.svg" width="290" alt="llm-reviewer-path receipt figure: a good eval candidate passes, a mutated label set fails, and writes run only with an issued approval token" /></a>
-  <a href="https://github.com/ChunkyTortoise/docextract"><img src="assets/docextract-demo-hero.png" width="290" alt="DocExtract fixture explorer showing stored invoice fields and sample values" /></a>
-  <a href="https://github.com/ChunkyTortoise/mcp-server-toolkit"><img src="assets/mcp-cache-receipt.png" width="290" alt="mcp-server-toolkit cache receipt: two tool calls, one handler execution, cache miss then hit in telemetry" /></a>
+  <a href="https://github.com/ChunkyTortoise/llm-reviewer-path"><img src="assets/reviewer-receipt.svg" width="260" align="top" alt="llm-reviewer-path receipt figure: a good eval candidate passes, a mutated label set fails, and writes run only with an issued approval token" /></a>
+  <a href="https://github.com/ChunkyTortoise/docextract"><img src="assets/docextract-demo-hero.png" width="260" align="top" alt="DocExtract fixture explorer showing stored invoice fields and sample values" /></a>
+  <a href="https://github.com/ChunkyTortoise/mcp-server-toolkit"><img src="assets/mcp-cache-receipt.png" width="260" align="top" alt="mcp-server-toolkit cache receipt: two tool calls, one handler execution, cache miss then hit in telemetry" /></a>
 </p>
 
 - **Ship it** (production LLM apps): [Acuity Real Estate](https://chunkytortoise.github.io/case-studies/acuity.html), a paid client deployment (Jan–Mar 2026) with Spanish detection and bilingual handoff for client-reported 500+ inbound leads, and [DocExtract](https://github.com/ChunkyTortoise/docextract).

@@ -2,7 +2,7 @@
 
 **AI Engineer: I build production LLM systems and the evals and guardrails that make them safe to ship.**
 
-Open to full-time AI Engineer roles, US remote.
+Open to contract, freelance, part-time, and full-time AI engineering opportunities, US remote.
 
 <p align="center">
   <a href="https://github.com/ChunkyTortoise/llm-reviewer-path"><img src="assets/reviewer-receipt.svg" width="260" align="top" alt="llm-reviewer-path receipt figure: a good eval candidate passes, a mutated label set fails, and writes run only with an issued approval token" /></a>

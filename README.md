@@ -23,7 +23,7 @@ Open to contract, freelance, part-time, and full-time AI engineering opportuniti
 </tr>
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/ChunkyTortoise/mcp-server-toolkit"><b>mcp-server-toolkit</b></a><br>MCP server library with JWT/JWKS auth, sqlglot read-only SQL checks, caching and OpenTelemetry spans; runnable SDK stdio and cache checks.<br><sub>Python · MCP SDK · pydantic · sqlglot · PyJWT · OpenTelemetry</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/ChunkyTortoise/llm-reviewer-path"><b>llm-reviewer-path</b></a><br>Offline eval gate, approval tokens for irreversible agent actions, and duplicate-retry suppression; 36 tests, no API keys.<br><sub>Python · pytest · uv · GitHub Actions</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/ChunkyTortoise/llm-reviewer-path"><b>llm-reviewer-path</b></a><br>Offline eval gate, approval tokens for irreversible agent actions, and duplicate-retry suppression; offline tests, no API keys.<br><sub>Python · pytest · uv · GitHub Actions</sub></td>
 </tr>
 </table>
 

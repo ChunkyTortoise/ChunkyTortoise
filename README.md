@@ -2,7 +2,9 @@
 
 **AI Engineer: I build production LLM systems and the evals and guardrails that make them safe to ship.**
 
-Open to contract, freelance, part-time, and full-time AI engineering opportunities, US remote.
+Open to contract, freelance, part-time, and full-time AI engineering opportunities, US remote. **Available now.**
+
+Looking for AI engineering contracts, LLM evaluation and AI-training projects, or customer implementation work building integrations. [Email](mailto:caymanroden@gmail.com) · [LinkedIn](https://linkedin.com/in/caymanroden) · [Portfolio](https://chunkytortoise.github.io)
 
 <p align="center">
   <a href="https://github.com/ChunkyTortoise/llm-reviewer-path"><img src="assets/reviewer-receipt.svg" width="260" align="top" alt="llm-reviewer-path receipt figure: a good eval candidate passes, a mutated label set fails, and writes run only with an issued approval token" /></a>
@@ -23,7 +25,7 @@ Open to contract, freelance, part-time, and full-time AI engineering opportuniti
 </tr>
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/ChunkyTortoise/mcp-server-toolkit"><b>mcp-server-toolkit</b></a><br>MCP server library with JWT/JWKS auth, sqlglot read-only SQL checks, caching and OpenTelemetry spans; runnable SDK stdio and cache checks.<br><sub>Python · MCP SDK · pydantic · sqlglot · PyJWT · OpenTelemetry</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/ChunkyTortoise/llm-reviewer-path"><b>llm-reviewer-path</b></a><br>Offline eval gate, approval tokens for irreversible agent actions, and duplicate-retry suppression; offline tests, no API keys.<br><sub>Python · pytest · uv · GitHub Actions</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/ChunkyTortoise/llm-reviewer-path"><b>llm-reviewer-path</b></a><br>Offline eval gate, an in-memory approval-token example for agent writes, and duplicate-retry suppression; offline tests, no API keys.<br><sub>Python · pytest · uv · GitHub Actions</sub></td>
 </tr>
 </table>
 

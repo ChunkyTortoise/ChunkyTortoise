@@ -2,7 +2,7 @@
 
 **AI Engineer: I build production LLM systems and the evals and guardrails that make them safe to ship.**
 
-Open to contract, freelance, part-time, and full-time AI engineering opportunities, US remote.
+Open to full-time AI engineering roles, US remote.
 
 <p align="center">
   <a href="https://github.com/ChunkyTortoise/llm-reviewer-path"><img src="assets/reviewer-receipt.svg" width="260" align="top" alt="llm-reviewer-path receipt figure: a good eval candidate passes, a mutated label set fails, and writes run only with an issued approval token" /></a>
@@ -10,7 +10,7 @@ Open to contract, freelance, part-time, and full-time AI engineering opportuniti
   <a href="https://github.com/ChunkyTortoise/mcp-server-toolkit"><img src="assets/mcp-cache-receipt.png" width="260" align="top" alt="mcp-server-toolkit cache receipt: two tool calls, one handler execution, cache miss then hit in telemetry" /></a>
 </p>
 
-- **Ship it** (production LLM apps): [Acuity Real Estate](https://chunkytortoise.github.io/case-studies/acuity.html), a paid client deployment (Jan–Mar 2026) with Spanish detection and bilingual handoff for client-reported 500+ inbound leads, and [DocExtract](https://github.com/ChunkyTortoise/docextract).
+- **Ship it** (production LLM apps): two paid client deployments. [Acuity Real Estate](https://chunkytortoise.github.io/case-studies/acuity.html) (Jan–Mar 2026): SMS lead qualification with Spanish detection and a bilingual handoff, client-reported 500+ inbound leads. [DocExtract](https://github.com/ChunkyTortoise/docextract): document extraction built for a confidential client.
 - **Measure it** (evals as CI): the [DocExtract](https://github.com/ChunkyTortoise/docextract) eval gate and [llm-reviewer-path](https://github.com/ChunkyTortoise/llm-reviewer-path).
 - **Secure it** (agent and MCP security): [ai-redteam-notes](https://github.com/ChunkyTortoise/ai-redteam-notes) and [mcp-server-toolkit](https://github.com/ChunkyTortoise/mcp-server-toolkit).
 
@@ -18,7 +18,7 @@ Open to contract, freelance, part-time, and full-time AI engineering opportuniti
 
 <table>
 <tr>
-<td width="50%" valign="top"><a href="https://github.com/ChunkyTortoise/docextract"><b>DocExtract</b></a><br>Two-pass Claude extraction with pgvector search; 95.5% weighted field-level score on a 28-fixture offline replay, with a CI check that fails below 0.85.<br><sub>FastAPI · Claude API · PostgreSQL/pgvector · Redis + ARQ · OpenTelemetry</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/ChunkyTortoise/docextract"><b>DocExtract</b></a> · client work<br>Two-pass Claude extraction with pgvector search, built for a confidential client; 95.5% weighted field-level score on a 28-fixture offline replay, with a CI check that fails below 0.85.<br><sub>FastAPI · Claude API · PostgreSQL/pgvector · Redis + ARQ · OpenTelemetry</sub></td>
 <td width="50%" valign="top"><a href="https://github.com/ChunkyTortoise/ai-redteam-notes"><b>ai-redteam-notes</b></a><br>Pre-registered prompt-injection research on agent tool dispatch, plus a zero-dependency substrate auditor that runs in CI.<br><sub>Python · MCP harnesses · open-weight Llama 3.3 70B · offline repro</sub></td>
 </tr>
 <tr>
